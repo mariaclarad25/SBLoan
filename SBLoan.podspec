@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SBLoan'
-  s.version          = '1.0.1' 
+  s.version          = '1.1.0' 
   s.summary          = 'Módulo utilizado no aplicativo SwiftBank para funcionalidade de empréstimos'
   s.description      = 'SBLoan é uma biblioteca que permite o usuário acessar sua carteira de crédito disponível'
 
@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.swift_version = '5.0'
-  s.ios.deployment_target = '13.0'
+  s.ios.deployment_target = '15.0'
 
   s.source_files = 'Classes/**/*.swift'
   
